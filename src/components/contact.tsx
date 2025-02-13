@@ -4,7 +4,7 @@ import Link from "next/link"
 import { Button } from "@/components/ui/button"
 
 export function ContactSection() {
-  const phoneNumber = "+1234567890" // Replace with actual phone number
+  const phoneNumber = "+(208) 215-7662" // Replace with actual phone number
 
   return (
     <section id="contact" className="bg-muted py-12 md:py-16 lg:py-24">

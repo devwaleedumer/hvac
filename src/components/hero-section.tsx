@@ -3,7 +3,7 @@ import Image from "next/image"
 import Link from "next/link"
 import HeroImage from './../../public/images/h4.jpg'
 export function HeroSection() {
-  const phoneNumber = "+1234567890" // Replace with actual phone number
+  const phoneNumber = "+(208) 215-7662" // Replace with actual phone number
 
   return (
     <section className="relative overflow-hidden bg-gradient-to-b from-muted/50 to-background pb-16 md:pb-0  pt-6 ">

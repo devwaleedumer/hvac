@@ -1,7 +1,7 @@
 import { Phone } from "lucide-react"
 
 export function MobileFooter() {
-  const phoneNumber = "+1234567890" // Replace with actual phone number
+  const phoneNumber = "+(208) 215-7662" // Replace with actual phone number
 
   return (
     <div className="fixed bottom-0 left-0 z-50 w-full border-t bg-background/95 backdrop-blur supports-[backdrop-filter]:bg-background/60 lg:hidden">
