@@ -11,7 +11,7 @@ export function ContactSection() {
       <div className="container  px-4 md:px-6 mx-auto">
         <div className="mx-auto max-w-[600px] space-y-4 text-center">
           <h2 className="text-3xl font-bold tracking-tighter text-foreground sm:text-4xl md:text-5xl">Get in Touch</h2>
-          <p className="text-muted-foreground md:text-xl">Need HVAC service? We &apos need just a phone call away.</p>
+          <p className="text-muted-foreground md:text-xl">Need HVAC service? We need just a phone call away.</p>
           <div className="flex flex-col gap-4 min-[400px]:flex-row min-[400px]:justify-center">
             <a
               href={`tel:${phoneNumber}`}

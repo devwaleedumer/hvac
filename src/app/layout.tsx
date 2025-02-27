@@ -1,5 +1,8 @@
 import type { Metadata } from "next";
 import "./globals.css";
+import { SiteHeader } from "@/components/header";
+import { MobileFooter } from "@/components/mobile-footer";
+import Footer from "@/components/footer";
 
 
 
@@ -34,7 +37,16 @@ export default function RootLayout({
       <body
         className={` antialiased`}
       >
-        {children}
+            <div className="flex min-h-screen flex-col">
+
+              <SiteHeader />
+
+      <main className="flex-1">
+          {children}
+      </main>
+        <Footer />
+      <MobileFooter />
+        </div>
       </body>
     </html>
   );

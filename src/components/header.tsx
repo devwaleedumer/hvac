@@ -72,7 +72,7 @@ export function SiteHeader() {
                 onClick={() => setIsOpen(false)}>
                 Services
               </Link>
-              <Link href="#why-us" className="text-lg font-medium hover:text-primary" onClick={() => setIsOpen(false)}>
+              <Link href="/#why-us" className="text-lg font-medium hover:text-primary" onClick={() => setIsOpen(false)}>
                 Why Choose Us
               </Link>
                <Link href="#how-we-work" className="text-lg font-medium hover:text-primary" onClick={() => setIsOpen(false)}>
@@ -85,25 +85,40 @@ export function SiteHeader() {
           </SheetContent>
         </Sheet>
         <nav className="hidden flex-1 justify-center lg:flex">
-          <ul className="flex items-center space-x-8">
+          <ul className="flex items-center space-x-6">
             <li>
-              <Link href="#why-us" className="text-lg font-medium hover:text-primary">
-                Work
+              <Link href="/" className="text-md font-medium hover:text-primary">
+                Home
               </Link>
             </li>
-            <li>
-              <Link href="#services" className="text-lg font-medium hover:text-primary">
+             <li>
+              <Link href="#services" className="text-md font-medium hover:text-primary">
                 Services
               </Link>
             </li>
             <li>
-              <Link href="#contact" className="text-lg font-medium hover:text-primary">
+              <Link href="#contact" className="text-md font-medium hover:text-primary">
                 Contact
               </Link>
             </li>
+            <li>
+              <Link href="#why-us" className="text-md font-medium hover:text-primary">
+                Work
+              </Link>
+            </li>
            <li>
-             <Link href="#why-us" className="text-lg font-medium hover:text-primary" onClick={() => setIsOpen(false)}>
-                Why Choose Us
+             <Link href="/about-us" className="text-md font-medium hover:text-primary" onClick={() => setIsOpen(false)}>
+               About Us
+              </Link>
+           </li>
+             <li>
+             <Link href="/privacy-policy" className="text-md font-medium hover:text-primary" onClick={() => setIsOpen(false)}>
+               Privacy Policy
+              </Link>
+           </li>
+           <li>
+             <Link href="/terms-condition" className="text-md font-medium hover:text-primary" onClick={() => setIsOpen(false)}>
+               Terms & Conditions
               </Link>
            </li>
                
