@@ -44,7 +44,7 @@ export default function AboutUs() {
                 <h2 className="text-4xl font-bold mb-6 text-yellow-800">Your Comfort Is Our Priority</h2>
                 <p className="text-lg text-gray-700 mb-6 leading-relaxed">
                   At <span className="font-bold text-yellow-600">Your HVAC Company</span>, we understand that your
-                  home's comfort is essential to your quality of life. That's why we've dedicated ourselves to providing
+                  home&apose;s comfort is essential to your quality of life. That&apos;s why we&apose;ve dedicated ourselves to providing
                   exceptional heating, ventilation, and air conditioning services to homeowners and businesses
                   throughout the region.
                 </p>
@@ -126,8 +126,8 @@ export default function AboutUs() {
                       </p>
                       <div className="p-4 bg-yellow-50 border-l-4 border-yellow-400 rounded-r-lg">
                         <p className="italic text-yellow-800">
-                          "We don't just fix HVAC systems — we create comfortable environments where families thrive and
-                          businesses succeed."
+                         &qout;We don&apose;t just fix HVAC systems — we create comfortable environments where families thrive and
+                          businesses succeed.&qout;
                         </p>
                       </div>
                     </div>

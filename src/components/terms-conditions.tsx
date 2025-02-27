@@ -51,10 +51,10 @@ export default function TermsAndConditions() {
             <CardContent className="pt-8 px-8 pb-8">
               <p className="text-lg mb-6 leading-relaxed text-gray-800">
                 These Terms and Conditions constitute a legally binding agreement made between you, whether personally
-                or on behalf of an entity ("you") and{" "}
-                <span className="font-bold text-yellow-600">Your HVAC Company</span> ("we," "us" or "our"), concerning
+                or on behalf of an entity (&qout;you&qout;) and{" "}
+                <span className="font-bold text-yellow-600">Your HVAC Company</span> (&qout;we,&qout; &qout;us&qout; or &qout;our&qout;), concerning
                 your access to and use of our website as well as any other media form, media channel, mobile website or
-                mobile application related, linked, or otherwise connected thereto (collectively, the "Site").
+                mobile application related, linked, or otherwise connected thereto (collectively, the &qout;Site&qout).
               </p>
               <div className="bg-yellow-50 p-6 rounded-xl border-l-4 border-yellow-400">
                 <p className="text-lg leading-relaxed text-gray-800">
